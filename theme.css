@@ -5,17 +5,18 @@ body {
 	--radius-m: 12px;
 	--radius-l: 16px;
 	--input-radius: 12px;
-	--tab-radius-active: 12px;
 	--checkbox-radius: 12px;
 	--toggle-radius: 12px;
 	--toggle-thumb-radius: 12px;
 	--slider-thumb-radius: 12px;
 	background-color: var(--primary);
 	color: var(--text);
+	font-family: 'Noto Sans Old Persian', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: bolder;
+
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -46,12 +47,12 @@ svg * {
 
 .theme-dark {
 	--text: #dfece8;
-	--background-primary: #030706;
+	--background-primary: #050c0a;
 	--primary: #a5d5c5;
 	--secondary: #30735d;
 	--accent: #4cbd97;
 
-	--highlight-hue: 30;
+	--highlight-hue: 60;
 	--italic-color: var(--accent);
 	--bold-color: var(--accent);
 	--h1-color: var(--accent);
@@ -90,4 +91,4 @@ body.theme-dark h5 {
 body.theme-dark h6 {
 	color: var(--h6-color);
 }
-}
+
