@@ -12,6 +12,7 @@ body {
 	background-color: var(--primary);
 	color: var(--text);
 	font-family: 'Noto Sans Old Persian', sans-serif;
+	--font-text-theme: 'Noto Serif KR', serif
 }
 
 h1, h2, h3, h4, h5, h6 {
